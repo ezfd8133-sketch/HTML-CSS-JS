@@ -1,0 +1,40 @@
+/* ul{
+
+    list-style-type: circle;
+
+}
+.square{
+
+    list-style-type: square;
+
+}
+.plus{
+
+    list-style-image: url("plus.png");
+
+} */    
+
+ul{
+    list-style-type: none;
+    border-left: 5px solid green;
+    padding: 15px 25px;
+    font-size: 20px;
+    color: black;
+}
+ul li{
+    padding: 8px;
+    border-bottom: 1px solid gray;
+}
+ol{
+    list-style-type: upper-roman;
+    background: blue;
+}
+ol li{
+    background: azure;
+    padding: 8px;
+    margin-left: 30px;
+}
+td, th{
+    border: 1px solid black;
+    padding: 10px;
+}

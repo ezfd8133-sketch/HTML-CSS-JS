@@ -10,6 +10,7 @@ p{
     border-width: 5px;
     border-style: solid;
     border-color: blue;
+
 }
 div{
 
@@ -20,12 +21,11 @@ div{
     padding: 50px;
     background-color: lightgrey;
     text-align: center;
+
 }   
 body{
 
-
     background:url("typeshi.jpg");
     background-size: 100%;
-
 
 }
