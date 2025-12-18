@@ -1,0 +1,39 @@
+#test-div{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    background-color: #06206a;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    margin: 200px;
+    /* transform: rotate(45d); */
+    /* transform: translate(500px, 500px); */
+    /* transform: scale(2,2); */
+    /* transform: scaleX(2); */
+    /* transform: scaleY(1); */
+    transform: skewX(30deg);
+    /* transform: skewY(30deg); */
+}
+
+#transition{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    transition: background 3s, border-radius 5s;
+    text-align: center;
+}
+
+#transition:hover{
+    background-color: blue;
+    border-radius: 50%;
+}
+
+#engineers img{
+    transform: scale(1);
+    transition: 3s ease-in-out;
+}
+
+#engineers:hover img{
+    transform: scale(1.5);
+}
