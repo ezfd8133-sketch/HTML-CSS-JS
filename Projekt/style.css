@@ -154,14 +154,17 @@ body{
 }
 
 #contactus{
-    width: 500px;
+    width: 600px;
     height: 125px;
     background-color: var(--bg-2);
-    margin-left: 725px;
+    margin-top: 300px;
+    margin-left: 625px;
     align-items: center;
     text-align: center;
     border: 3px solid var(--border);
     display: inline-block;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
 }
 
 #number{
@@ -172,4 +175,13 @@ body{
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
     text-decoration: none;
+    opacity: ;
+}
+
+#banner{
+    width: 1874px;
+    height: 800px;
+    display: block;
+    background-image: url(img/banner.avif);
+    background-size: 100%;
 }
