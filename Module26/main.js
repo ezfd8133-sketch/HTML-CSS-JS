@@ -64,12 +64,33 @@ console.log(w > v);
 
 console.log(w < v);
 
-var emri = "Adolf";
+var emri = "Lindrit";
 
-var mbiemri = "Hodza";
+var mbiemri = "Bunjaku";
 
 var fullName = emri + " " + mbiemri;
 
 console.log(fullName);
 
 console.log(`Hello from ${emri}`);
+
+var test = "Hajde lujm qyqek";
+
+var test2 = " mori shyret e kallim krejt";
+
+var song = test + test2;
+
+console.log(`${song}`);
+
+var age = 24;
+
+console.log(age > 18 && age < 65 );
+
+var age1 = 67;
+
+console.log(age1 < 18 || age1 > 65 );
+
+var var1 = 10;
+var var2 = 12;
+
+console.log(!(var1 == var2));
