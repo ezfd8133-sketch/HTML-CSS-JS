@@ -30,13 +30,34 @@ button5.onmousewheel = function(){
 
 var button6 = document.getElementById("btn6");
 
-var v_txt = document.getElementById("txt")
-button6.onclick = function(){
-    v_txt.style.color='red';
-}
 
 // ^
 // |
 // |
 
 // Tsundure ahhh buttons
+
+
+
+
+document.getElementById("test").style.display ="none";
+
+function openTest() {
+    document.getElementById("test").style.display = "block";
+}
+
+document.getElementById("test2").style.display ="none";
+
+function openTest2() {
+    document.getElementById("test2").style.display = "block";
+}
+
+document.getElementById("test3").style.display ="none";
+
+function openTest3() {
+    document.getElementById("test3").style.display = "block";
+}
+
+
+
+
